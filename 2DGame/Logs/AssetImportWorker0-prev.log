@@ -15,11 +15,11 @@ E:/Unity 1/Unity-HC-TC-202106-2DGame/2DGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57680
+57207
 Successfully changed project path to: E:/Unity 1/Unity-HC-TC-202106-2DGame/2DGame
 E:/Unity 1/Unity-HC-TC-202106-2DGame/2DGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 69.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 54.55 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path E:/unity/unity/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -35,25 +35,25 @@ Initialize mono
 Mono path[0] = 'E:/unity/unity/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'E:/unity/unity/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/unity/unity/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56768
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/unity/unity/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001016 seconds.
+Registered in 0.001224 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 39.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 56.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.908 seconds
+- Completed reload, in  1.172 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002843 seconds.
+Registered in 0.002928 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 61.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.138 seconds
+- Completed reload, in  1.555 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
@@ -61,11 +61,11 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 second
 Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2080 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.3 MB.
-System memory in use after: 93.3 MB.
+System memory in use before: 93.4 MB.
+System memory in use after: 93.4 MB.
 
-Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2517.
-Total: 2.246500 ms (FindLiveObjects: 0.196900 ms CreateObjectMapping: 0.085400 ms MarkObjects: 1.845200 ms  DeleteObjects: 0.117600 ms)
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2518.
+Total: 2.392800 ms (FindLiveObjects: 0.185600 ms CreateObjectMapping: 0.088600 ms MarkObjects: 1.923500 ms  DeleteObjects: 0.193800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,329 +79,133 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/場景/選單.unity
-  artifactKey: Guid(69f1eaf5c4e4ca647ba37222705c0aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景/選單.unity using Guid(69f1eaf5c4e4ca647ba37222705c0aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c56dc849cc5ec87bf5be16087461d5e') in 0.018019 seconds 
-  Import took 0.021552 seconds .
+  path: Assets/動畫/主角攻擊.anim
+  artifactKey: Guid(84518a76e1d03684e9deccbe71f1348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/動畫/主角攻擊.anim using Guid(84518a76e1d03684e9deccbe71f1348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b18e8989675c98d4964fd7922e187c7') in 0.086689 seconds 
+  Import took 0.090662 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 620.658661 seconds.
-  path: Assets/場景
-  artifactKey: Guid(92fd09534a14a7f42a43a99a800584b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景 using Guid(92fd09534a14a7f42a43a99a800584b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31125f388daef5e46c09031b302eda6') in 0.007453 seconds 
-  Import took 0.012332 seconds .
+  Time since last request: 2.604323 seconds.
+  path: Assets/動畫/主角死亡.anim
+  artifactKey: Guid(f9cafb2ba89f69843845c509d7b39198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/動畫/主角死亡.anim using Guid(f9cafb2ba89f69843845c509d7b39198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e9076aa2458acd3b6d9d23f315a4c2') in 0.015307 seconds 
+  Import took 0.023808 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.015347 seconds.
-  path: Assets/場景/遊戲場景.unity
-  artifactKey: Guid(a004e3aa426d05a49a60db1901a18dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/場景/遊戲場景.unity using Guid(a004e3aa426d05a49a60db1901a18dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3e16314ea9505a37ef1c9ee77015a8e') in 0.008998 seconds 
-  Import took 0.013159 seconds .
+  Time since last request: 3.681706 seconds.
+  path: Assets/動畫/主角等待.anim
+  artifactKey: Guid(ece911fffa2a58c4e8ecd059d8928a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/動畫/主角等待.anim using Guid(ece911fffa2a58c4e8ecd059d8928a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a54c17afb20fb8a5c8e1760ccd396a') in 0.017096 seconds 
+  Import took 0.020470 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3252.033053 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props 1.png
-  artifactKey: Guid(b6a17d9e3a8584041a9e8b74dd9efc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props 1.png using Guid(b6a17d9e3a8584041a9e8b74dd9efc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7b04c901b70ec610e4761ef1ec9960') in 0.469230 seconds 
-  Import took 0.475385 seconds .
+  Time since last request: 0.774730 seconds.
+  path: Assets/動畫/主角走路.anim
+  artifactKey: Guid(8fa36ede7a60b58408334d62471e6afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/動畫/主角走路.anim using Guid(8fa36ede7a60b58408334d62471e6afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf44381db023c0e5f6b863c21d52418c') in 0.009168 seconds 
+  Import took 0.014412 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 52.6 MB.
+System memory in use after: 52.5 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2518.
+Total: 3.010100 ms (FindLiveObjects: 0.181400 ms CreateObjectMapping: 0.077600 ms MarkObjects: 2.639600 ms  DeleteObjects: 0.109900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004588 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.439 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2075 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.4 MB.
+System memory in use after: 93.4 MB.
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2522.
+Total: 2.570200 ms (FindLiveObjects: 0.219300 ms CreateObjectMapping: 0.108800 ms MarkObjects: 2.026200 ms  DeleteObjects: 0.214400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 82.486045 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Material
+  artifactKey: Guid(9ac4b6a5224288540a1d038f5d6101e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Material using Guid(9ac4b6a5224288540a1d038f5d6101e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c18b5780d5490fccb1b547db360be69') in 0.012359 seconds 
+  Import took 0.017652 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 155.638247 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Scene
-  artifactKey: Guid(3e5bc175231773446846774743597c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Scene using Guid(3e5bc175231773446846774743597c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac6268745c63c31f7dd257fa1aec85e') in 0.009539 seconds 
-  Import took 0.014286 seconds .
+  Time since last request: 107.357589 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Scene/SC Demo Scene - Village PropsSettings.lighting
+  artifactKey: Guid(9866ed0882b7b064f8289f4f729cea74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Scene/SC Demo Scene - Village PropsSettings.lighting using Guid(9866ed0882b7b064f8289f4f729cea74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '546eb7727f81fd15a210e5c0f9102074') in 0.016744 seconds 
+  Import took 0.022479 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.249948 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props 1.png
-  artifactKey: Guid(24cb4851df23a434aa1f6e9d0a03a6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props 1.png using Guid(24cb4851df23a434aa1f6e9d0a03a6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b306ffb76b9176280e81bee80caec698') in 0.221761 seconds 
-  Import took 0.226285 seconds .
+  Time since last request: 109.177078 seconds.
+  path: Assets/動畫/主角攻擊.anim
+  artifactKey: Guid(84518a76e1d03684e9deccbe71f1348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/動畫/主角攻擊.anim using Guid(84518a76e1d03684e9deccbe71f1348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59cd10d42055ffb6ca61abd3bec689d0') in 0.003476 seconds 
+  Import took 0.008270 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props 2.png
-  artifactKey: Guid(d6939355224758a418d29e3477a74a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props 2.png using Guid(d6939355224758a418d29e3477a74a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ecd90a6597c81356bf1ef7ea1f2306') in 0.261842 seconds 
-  Import took 0.265375 seconds .
+  Time since last request: 0.003419 seconds.
+  path: Assets/動畫/主角攻擊.anim
+  artifactKey: Guid(84518a76e1d03684e9deccbe71f1348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/動畫/主角攻擊.anim using Guid(84518a76e1d03684e9deccbe71f1348d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59cd10d42055ffb6ca61abd3bec689d0') in 0.003360 seconds 
+  Import took 0.007971 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 252.599669 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props 1.png
-  artifactKey: Guid(099f8ee8996ad9244a535cda7fd03d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props 1.png using Guid(099f8ee8996ad9244a535cda7fd03d11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e789b1428a97e88dbb288f04257fc2') in 0.224915 seconds 
-  Import took 0.229598 seconds .
+  Time since last request: 3.627361 seconds.
+  path: Assets/動畫/主角死亡.anim
+  artifactKey: Guid(f9cafb2ba89f69843845c509d7b39198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/動畫/主角死亡.anim using Guid(f9cafb2ba89f69843845c509d7b39198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adafd5d6e54afcd85cf9b2c4cde19d19') in 0.003802 seconds 
+  Import took 0.007539 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 365.057458 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
-  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb682a91a61420cad31f99fe8e449e7c') in 0.217724 seconds 
-  Import took 0.223025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 54.578380 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png
-  artifactKey: Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props.png using Guid(7810966f0f690954c87305933cabf2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da387a3a460d526c26f184e2f3c258c4') in 0.228488 seconds 
-  Import took 0.233303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 165.129344 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.007048 seconds 
-  Import took 0.010839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.965606 seconds.
-  path: Assets/預置物
-  artifactKey: Guid(78832f121ef9e9f46a29d36088021849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物 using Guid(78832f121ef9e9f46a29d36088021849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6de30484c6668eb6e89d4e4cb2aa3e') in 0.006778 seconds 
-  Import took 0.012870 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.990045 seconds.
-  path: Assets/預置物/草叢A.prefab
-  artifactKey: Guid(d76017a990d51514ebcac868099f9fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/草叢A.prefab using Guid(d76017a990d51514ebcac868099f9fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce61df656c23e48e93d5d459898d1571') in 0.072719 seconds 
-  Import took 0.077340 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000783 seconds.
-  path: Assets/預置物/草叢A.prefab
-  artifactKey: Guid(d76017a990d51514ebcac868099f9fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/草叢A.prefab using Guid(d76017a990d51514ebcac868099f9fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce61df656c23e48e93d5d459898d1571') in 0.012478 seconds 
-  Import took 0.016604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 237.506615 seconds.
-  path: Assets/預置物/草叢B.prefab
-  artifactKey: Guid(d0eec767603c488478663c84ecb89993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/草叢B.prefab using Guid(d0eec767603c488478663c84ecb89993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e1caee9268c4fb4a4f1e2c8cdd7312') in 0.021236 seconds 
-  Import took 0.025455 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014580 seconds.
-  path: Assets/預置物/草叢B.prefab
-  artifactKey: Guid(d0eec767603c488478663c84ecb89993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/草叢B.prefab using Guid(d0eec767603c488478663c84ecb89993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e1caee9268c4fb4a4f1e2c8cdd7312') in 0.012370 seconds 
-  Import took 0.015813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.127305 seconds.
-  path: Assets/預置物/草叢C.prefab
-  artifactKey: Guid(f1bdf357bda1d0e4d807bd272d771657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/草叢C.prefab using Guid(f1bdf357bda1d0e4d807bd272d771657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17661a445bfdb5cc096d27e4f51e9117') in 0.019902 seconds 
-  Import took 0.022985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009683 seconds.
-  path: Assets/預置物/草叢C.prefab
-  artifactKey: Guid(f1bdf357bda1d0e4d807bd272d771657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/草叢C.prefab using Guid(f1bdf357bda1d0e4d807bd272d771657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17661a445bfdb5cc096d27e4f51e9117') in 0.012439 seconds 
-  Import took 0.015846 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.349551 seconds.
-  path: Assets/預置物/小草A.prefab
-  artifactKey: Guid(a079cb716f6edb94ba0bccbac2c0b6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/小草A.prefab using Guid(a079cb716f6edb94ba0bccbac2c0b6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2c5a3772003832c5aee2b7b6f472b8') in 0.019382 seconds 
-  Import took 0.023695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011094 seconds.
-  path: Assets/預置物/小草A.prefab
-  artifactKey: Guid(a079cb716f6edb94ba0bccbac2c0b6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/小草A.prefab using Guid(a079cb716f6edb94ba0bccbac2c0b6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2c5a3772003832c5aee2b7b6f472b8') in 0.013444 seconds 
-  Import took 0.017794 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.008335 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken.prefab
-  artifactKey: Guid(027db5ce1ff2f4142b49c3de3b59625a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground Darken.prefab using Guid(027db5ce1ff2f4142b49c3de3b59625a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5187fbea76d1824ab1541f57b0621368') in 0.008093 seconds 
-  Import took 0.012386 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground.prefab
-  artifactKey: Guid(a657d1104ca50f54dac2bf8d3d8e9898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Tileset Palette/TP Ground.prefab using Guid(a657d1104ca50f54dac2bf8d3d8e9898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272407c83fca12ccde6a1a52333fd453') in 0.010128 seconds 
-  Import took 0.014456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.148066 seconds.
-  path: Assets/預置物/向日葵A.prefab
-  artifactKey: Guid(2e8fa6b40acda6e40849ad5c9774c723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/向日葵A.prefab using Guid(2e8fa6b40acda6e40849ad5c9774c723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e869fb2c83af4c7b699fb0ea63fec9') in 0.019363 seconds 
-  Import took 0.023575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007070 seconds.
-  path: Assets/預置物/向日葵A.prefab
-  artifactKey: Guid(2e8fa6b40acda6e40849ad5c9774c723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/向日葵A.prefab using Guid(2e8fa6b40acda6e40849ad5c9774c723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e869fb2c83af4c7b699fb0ea63fec9') in 0.011221 seconds 
-  Import took 0.015906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 168.997903 seconds.
-  path: Assets/預置物/草叢A.prefab
-  artifactKey: Guid(d76017a990d51514ebcac868099f9fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/草叢A.prefab using Guid(d76017a990d51514ebcac868099f9fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a066ff7e39f0907a47edad60bc3d8ec0') in 0.014451 seconds 
-  Import took 0.018578 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.676027 seconds.
-  path: Assets/預置物/小草A.prefab
-  artifactKey: Guid(a079cb716f6edb94ba0bccbac2c0b6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/小草A.prefab using Guid(a079cb716f6edb94ba0bccbac2c0b6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6bb1405147e737874977ebae289ee47') in 0.016113 seconds 
-  Import took 0.020316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.269004 seconds.
-  path: Assets/預置物/小草A.prefab
-  artifactKey: Guid(a079cb716f6edb94ba0bccbac2c0b6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/小草A.prefab using Guid(a079cb716f6edb94ba0bccbac2c0b6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cdb76434691f60b08963713ef3d2e8b') in 0.012786 seconds 
-  Import took 0.018372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.621442 seconds.
-  path: Assets/預置物/小草A.prefab
-  artifactKey: Guid(a079cb716f6edb94ba0bccbac2c0b6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/小草A.prefab using Guid(a079cb716f6edb94ba0bccbac2c0b6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8145a44dbb02f5d3312b416e68a086e') in 0.021866 seconds 
-  Import took 0.025775 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.334899 seconds.
-  path: Assets/預置物/小草A.prefab
-  artifactKey: Guid(a079cb716f6edb94ba0bccbac2c0b6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/小草A.prefab using Guid(a079cb716f6edb94ba0bccbac2c0b6de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca457908f53b29a18e263c6c94fc036') in 0.010948 seconds 
-  Import took 0.015629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 128.127949 seconds.
-  path: Assets/預置物/大樹A.prefab
-  artifactKey: Guid(dc8185c59feb82c4ebb90d4b062a4967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/大樹A.prefab using Guid(dc8185c59feb82c4ebb90d4b062a4967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243206314002ba98b575909a7786871a') in 0.021666 seconds 
-  Import took 0.025840 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011906 seconds.
-  path: Assets/預置物/大樹A.prefab
-  artifactKey: Guid(dc8185c59feb82c4ebb90d4b062a4967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/大樹A.prefab using Guid(dc8185c59feb82c4ebb90d4b062a4967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243206314002ba98b575909a7786871a') in 0.018201 seconds 
-  Import took 0.022743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.260737 seconds.
-  path: Assets/預置物/桶子.prefab
-  artifactKey: Guid(1d29fc158b6b2c140aceadec91d56d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/桶子.prefab using Guid(1d29fc158b6b2c140aceadec91d56d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f066dfd28d169ce9dc6195fdc0de691c') in 0.025367 seconds 
-  Import took 0.029161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002153 seconds.
-  path: Assets/預置物/桶子.prefab
-  artifactKey: Guid(1d29fc158b6b2c140aceadec91d56d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/桶子.prefab using Guid(1d29fc158b6b2c140aceadec91d56d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f066dfd28d169ce9dc6195fdc0de691c') in 0.014625 seconds 
-  Import took 0.019949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 97.229257 seconds.
-  path: Assets/預置物/石頭A.prefab
-  artifactKey: Guid(52a49215716f88d488673244bd6a11b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/石頭A.prefab using Guid(52a49215716f88d488673244bd6a11b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d56a86f801f3ad1cf45ae0986ac85f0') in 0.016366 seconds 
-  Import took 0.021328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015402 seconds.
-  path: Assets/預置物/石頭A.prefab
-  artifactKey: Guid(52a49215716f88d488673244bd6a11b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/石頭A.prefab using Guid(52a49215716f88d488673244bd6a11b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d56a86f801f3ad1cf45ae0986ac85f0') in 0.009958 seconds 
-  Import took 0.015373 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 76.064800 seconds.
-  path: Assets/預置物/告示牌A.prefab
-  artifactKey: Guid(dfcab5fcf7333524ea43e1c332bf3618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/告示牌A.prefab using Guid(dfcab5fcf7333524ea43e1c332bf3618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992b2db18f868900d9348d25b63589da') in 0.016944 seconds 
-  Import took 0.020847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.013821 seconds.
-  path: Assets/預置物/告示牌A.prefab
-  artifactKey: Guid(dfcab5fcf7333524ea43e1c332bf3618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/告示牌A.prefab using Guid(dfcab5fcf7333524ea43e1c332bf3618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992b2db18f868900d9348d25b63589da') in 0.011957 seconds 
-  Import took 0.016473 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 64.789505 seconds.
-  path: Assets/預置物/小酒瓶.prefab
-  artifactKey: Guid(dc25c28e696e74b41b70f9634a6e1cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/小酒瓶.prefab using Guid(dc25c28e696e74b41b70f9634a6e1cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbae218c4666731282d6251e624291e') in 0.017016 seconds 
-  Import took 0.021451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012339 seconds.
-  path: Assets/預置物/小酒瓶.prefab
-  artifactKey: Guid(dc25c28e696e74b41b70f9634a6e1cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/小酒瓶.prefab using Guid(dc25c28e696e74b41b70f9634a6e1cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbae218c4666731282d6251e624291e') in 0.013559 seconds 
-  Import took 0.019259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.366875 seconds.
-  path: Assets/預置物/小草B.prefab
-  artifactKey: Guid(ab335b8fef8902b409722ead1484d22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/小草B.prefab using Guid(ab335b8fef8902b409722ead1484d22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87db65cc09c3c897b9f42c4a404353b8') in 0.016359 seconds 
-  Import took 0.021275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011467 seconds.
-  path: Assets/預置物/小草B.prefab
-  artifactKey: Guid(ab335b8fef8902b409722ead1484d22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/預置物/小草B.prefab using Guid(ab335b8fef8902b409722ead1484d22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87db65cc09c3c897b9f42c4a404353b8') in 0.015313 seconds 
-  Import took 0.020023 seconds .
+  Time since last request: 0.000946 seconds.
+  path: Assets/動畫/主角死亡.anim
+  artifactKey: Guid(f9cafb2ba89f69843845c509d7b39198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/動畫/主角死亡.anim using Guid(f9cafb2ba89f69843845c509d7b39198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adafd5d6e54afcd85cf9b2c4cde19d19') in 0.003071 seconds 
+  Import took 0.008120 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
